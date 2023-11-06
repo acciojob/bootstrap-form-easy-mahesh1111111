@@ -1,2 +1,37 @@
+form {
+  width: 500px;
+  margin: 0 auto;
+}
 
-/* Your CSS Code here. */
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.invalid-feedback {
+  color: red;
+  display: none;
+}
+
+input,
+select:invalid + .invalid-feedback {
+  display: block;
+}
+
+#graduation-year-select {
+  margin-top: 10px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
