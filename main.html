@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intern Hiring Form</title>
+    <link rel="stylesheet" href="styles.css">
     <!-- Bootstrap CSS link (make sure to include this) -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
@@ -49,8 +50,9 @@
 
         <!-- Graduation Year -->
         <div class="form-group">
-            <label>Graduation Year</label>
-            <select class="form-control" name="graduation_year" required>
+            <label for="graduation-year">Graduation Year</label>
+            <select class="form-control" id="graduation-year" name="graduation_year" required>
+                <option value="" disabled selected>Select Graduation Year</option>
                 <option value="2020">2020</option>
                 <option value="2021">2021</option>
                 <option value="2022">2022</option>
